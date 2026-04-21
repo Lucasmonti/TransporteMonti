@@ -56,7 +56,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center">
             <img
-              src="/src/img/logo.monti.png"
+              src="/img/logo.monti.png"
               alt="Logo de Transporte Monti"
               className={`w-32 h-auto transition-all duration-300 ${
                 isScrolled ? '' : 'brightness-0 invert'

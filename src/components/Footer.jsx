@@ -15,7 +15,7 @@ const Footer = () => {
             <div className="lg:col-span-2">
               <div className="mb-6">
                 <img
-                  src="/src/img/logo.monti.png"
+                  src="/img/logo.monti.png"
                   alt="Logo Transporte Monti"
                   className="w-40 h-auto brightness-0 invert"
                 />

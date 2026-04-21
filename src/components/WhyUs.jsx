@@ -123,7 +123,7 @@ const WhyUs = () => {
             {/* Image */}
             <div className="relative aspect-[4/3] overflow-hidden">
               <img
-                src="/src/img/camion.flota.jpeg"
+                src="/img/camion.flota.jpeg"
                 alt="Flota de camiones Transporte Monti"
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
               />

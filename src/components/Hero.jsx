@@ -16,7 +16,7 @@ const Hero = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/img/camion.fondo.jpeg"
+          src="/img/camion.fondo.jpeg"
           alt="Camión de transporte en carretera"
           className="w-full h-full object-cover"
         />
