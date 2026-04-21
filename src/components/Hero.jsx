@@ -54,9 +54,9 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-4xl md:text-6xl lg:text-7xl font-display font-bold text-white leading-tight mb-16"
           >
-            Logística Premium.
+            Transporte Monti
             <br />
-            Seguridad en cada kilómetro.
+            Logística Premium en Mar del Plata
           </motion.h1>
 
           {/* Subtitle */}

@@ -1,0 +1,10 @@
+# robots.txt para Transporte Monti
+User-agent: *
+Allow: /
+
+# Archivos que no necesitan ser indexados
+Disallow: /node_modules/
+Disallow: /src/
+
+# Sitemap
+Sitemap: https://transporte-monti.vercel.app/sitemap.xml
