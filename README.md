@@ -1,8 +1,8 @@
-# 🚚 Transporte Monti - Landing Page Premium
+#  Transporte Monti - Landing Page Premium
 
 Landing page de alta conversión para Transporte Monti, empresa de logística y transporte de cargas ubicada en Mar del Plata, Argentina.
 
-## ✨ Características
+##  Características
 
 - **Diseño Premium**: Estilo high-end corporativo con paleta minimalista (blanco, negro, grises)
 - **Totalmente Responsive**: Mobile-first design con experiencia perfecta en todos los dispositivos
@@ -10,7 +10,7 @@ Landing page de alta conversión para Transporte Monti, empresa de logística y 
 - **Performance Optimizado**: Construido con React + Vite para carga ultra-rápida
 - **SEO Ready**: Estructura semántica y metadatos optimizados
 
-## 🛠️ Stack Tecnológico
+##  Stack Tecnológico
 
 - **React 18** - Framework UI
 - **Vite** - Build tool de última generación
@@ -18,12 +18,12 @@ Landing page de alta conversión para Transporte Monti, empresa de logística y 
 - **Framer Motion** - Animaciones fluidas y profesionales
 - **Lucide React** - Iconos modernos y limpios
 
-## 📋 Requisitos Previos
+##  Requisitos Previos
 
 - Node.js 16+ instalado
 - npm o yarn
 
-## 🚀 Instalación y Uso
+##  Instalación y Uso
 
 ### 1. Instalar dependencias
 
@@ -53,7 +53,7 @@ Los archivos optimizados se generarán en la carpeta `dist/`
 npm run preview
 ```
 
-## 📁 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 ProyectoTransporteMonti/
@@ -76,7 +76,7 @@ ProyectoTransporteMonti/
 └── postcss.config.js
 ```
 
-## 🎨 Personalización
+##  Personalización
 
 ### Colores
 
@@ -98,63 +98,6 @@ Las fuentes se cargan desde Google Fonts en `index.html`:
 - **Montserrat** - Headings
 - **Plus Jakarta Sans** - Body text
 
-### WhatsApp
-
-Para configurar el número de WhatsApp, edita `src/components/WhatsAppButton.jsx`:
-
-```javascript
-const phoneNumber = '5492231234567'; // Tu número con código de país
-```
-
-### Imágenes
-
-Las imágenes actuales son placeholders de Unsplash. Para usar tus propias imágenes:
-
-1. Agrega tus imágenes a la carpeta `public/`
-2. Reemplaza las URLs en los componentes:
-   - Hero: `src/components/Hero.jsx`
-   - WhyUs (Flota): `src/components/WhyUs.jsx`
-
-### Formulario de Contacto
-
-El formulario actual solo muestra una alerta. Para integrar con un backend:
-
-Edita `src/components/Contact.jsx` en la función `handleSubmit`:
-
-```javascript
-const handleSubmit = async (e) => {
-  e.preventDefault();
-  setIsSubmitting(true);
-  
-  try {
-    // Aquí va tu lógica de envío (ej: fetch a tu API)
-    const response = await fetch('/api/contacto', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(formData)
-    });
-    
-    if (response.ok) {
-      alert('Mensaje enviado con éxito');
-      // Resetear formulario...
-    }
-  } catch (error) {
-    alert('Error al enviar el mensaje');
-  } finally {
-    setIsSubmitting(false);
-  }
-};
-```
-
-## 📱 Secciones
-
-1. **Navbar** - Navegación sticky transparente que se vuelve sólida al hacer scroll
-2. **Hero** - Header de alto impacto con CTA dual y estadísticas
-3. **Servicios** - Grid de 4 servicios con hover effects
-4. **Nosotros** - Propuesta de valor + información de la flota
-5. **Contacto** - Formulario completo + información de contacto
-6. **Footer** - Links, redes sociales y datos de la empresa
-7. **WhatsApp Button** - Botón flotante siempre visible
 
 ## 🎯 Optimizaciones Incluidas
 
@@ -165,24 +108,6 @@ const handleSubmit = async (e) => {
 - ✅ Smooth scroll nativo
 - ✅ Viewport-based animations (solo anima cuando está visible)
 
-## 🌐 Deployment
-
-### Vercel (Recomendado)
-
-1. Crea una cuenta en [Vercel](https://vercel.com)
-2. Conecta tu repositorio
-3. Vercel detectará automáticamente Vite
-4. Deploy automático en cada push
-
-### Netlify
-
-1. Build del proyecto: `npm run build`
-2. Arrastra la carpeta `dist/` a [Netlify Drop](https://app.netlify.com/drop)
-
-### Hosting tradicional
-
-1. `npm run build`
-2. Sube el contenido de `dist/` a tu servidor web
 
 ## 📞 Contacto y Soporte
 
@@ -194,4 +119,4 @@ Proyecto propietario de Transporte Monti.
 
 ---
 
-**Desarrollado con ❤️ para Transporte Monti**
+**Desarrollado para Transporte Monti**
