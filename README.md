@@ -1,12 +1,12 @@
 # Transporte Monti · Landing Page
 
-Landing page institucional de **Transporte Monti** (Mar del Plata, Argentina), desarrollada en React para presentar servicios, flota y canales de contacto en una única página.
+Institutional landing page for **Transporte Monti** (Mar del Plata, Argentina), built with React to showcase services, fleet, and contact information on a single page.
 
-## Demo online
+## Live Demo
 
 🔗 https://transporte-monti.vercel.app/
 
-## Tecnologías
+## Tech Stack
 
 - React 18
 - Vite 5
@@ -14,41 +14,41 @@ Landing page institucional de **Transporte Monti** (Mar del Plata, Argentina), d
 - Framer Motion
 - Lucide React
 
-## Características principales
+## Key Features
 
-- Diseño responsive (mobile-first)
-- Navegación interna con scroll suave
-- Secciones: Hero, Servicios, Nosotros/Flota y Contacto
-- Botón flotante de WhatsApp
-- Metadatos SEO y Open Graph en `index.html`
+- Responsive design (mobile-first)
+- Smooth internal scroll navigation
+- Sections: Hero, Services, About/Fleet, and Contact
+- Floating WhatsApp button
+- SEO and Open Graph metadata in `index.html`
 
-## Requisitos
+## Requirements
 
-- Node.js 18+ (recomendado)
+- Node.js 18+ (recommended)
 - npm
 
-## Ejecutar en local
+## Run Locally
 
 ```bash
 npm install
 npm run dev
 ```
 
-Abrir en: `http://localhost:5173`
+Open at: `http://localhost:5173`
 
-## Scripts disponibles
+## Available Scripts
 
 ```bash
-npm run dev      # entorno de desarrollo
-npm run build    # build de producción
-npm run preview  # previsualizar build local
+npm run dev      # development server
+npm run build    # production build
+npm run preview  # preview production build locally
 ```
 
-## Estructura del proyecto
+## Project Structure
 
 ```txt
 .
-├── public/img/                # imágenes del sitio
+├── public/img/                # site images
 ├── src/
 │   ├── components/
 │   │   ├── Navbar.jsx
@@ -66,19 +66,19 @@ npm run preview  # previsualizar build local
 └── vite.config.js
 ```
 
-## Despliegue
+## Deployment
 
-El proyecto está desplegado en **Vercel** y conectado al repositorio.
+The project is deployed on **Vercel** and connected to the repository.
 
-## Captura de pantalla (opcional)
+## Screenshot (optional)
 
-No es obligatoria, pero **sí recomendable** para que el README se entienda rápido sin abrir el link.  
-Si querés agregarla, podés guardar una imagen en `public` o `docs` y referenciarla así:
+Not required, but **recommended** to give readers a quick visual without opening the link.  
+To add one, save an image in `public` or `docs` and reference it like this:
 
 ```md
 ![Home Transporte Monti](./docs/screenshot-home.png)
 ```
 
-## Licencia
+## License
 
-Proyecto de uso privado para Transporte Monti.
+Private project for Transporte Monti.
