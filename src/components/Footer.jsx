@@ -13,13 +13,20 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
             {/* Company Info */}
             <div className="lg:col-span-2">
-              <div className="mb-6">
+              <a 
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }}
+                className="mb-6 inline-block cursor-pointer"
+              >
                 <img
                   src="/img/logo.monti.png"
                   alt="Logo Transporte Monti"
                   className="w-40 h-auto brightness-0 invert"
                 />
-              </div>
+              </a>
               <p className="text-white/70 leading-relaxed mb-6 max-w-md">
                 Más de 25 años brindando soluciones logísticas premium con la mayor 
                 confiabilidad y profesionalismo. Tu carga en las mejores manos.

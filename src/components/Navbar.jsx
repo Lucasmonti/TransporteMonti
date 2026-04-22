@@ -54,7 +54,14 @@ const Navbar = () => {
       <div className="section-padding py-5 md:py-6">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center">
+          <a 
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }}
+            className="flex items-center cursor-pointer"
+          >
             <img
               src="/img/logo.monti.png"
               alt="Logo de Transporte Monti"
@@ -62,7 +69,7 @@ const Navbar = () => {
                 isScrolled ? '' : 'brightness-0 invert'
               }`}
             />
-          </div>
+          </a>
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-10">
