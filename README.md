@@ -1,122 +1,84 @@
-#  Transporte Monti - Landing Page Premium
+# Transporte Monti · Landing Page
 
-Landing page de alta conversión para Transporte Monti, empresa de logística y transporte de cargas ubicada en Mar del Plata, Argentina.
+Institutional landing page for **Transporte Monti** (Mar del Plata, Argentina), built with React to showcase services, fleet, and contact information on a single page.
 
-##  Características
+## Live Demo
 
-- **Diseño Premium**: Estilo high-end corporativo con paleta minimalista (blanco, negro, grises)
-- **Totalmente Responsive**: Mobile-first design con experiencia perfecta en todos los dispositivos
-- **Animaciones Suaves**: Microinteracciones con Framer Motion para sensación premium
-- **Performance Optimizado**: Construido con React + Vite para carga ultra-rápida
-- **SEO Ready**: Estructura semántica y metadatos optimizados
+🔗 https://transporte-monti.vercel.app/
 
-##  Stack Tecnológico
+## Tech Stack
 
-- **React 18** - Framework UI
-- **Vite** - Build tool de última generación
-- **TailwindCSS** - Utility-first CSS framework
-- **Framer Motion** - Animaciones fluidas y profesionales
-- **Lucide React** - Iconos modernos y limpios
+- React 18
+- Vite 5
+- Tailwind CSS 3
+- Framer Motion
+- Lucide React
 
-##  Requisitos Previos
+## Key Features
 
-- Node.js 16+ instalado
-- npm o yarn
+- Responsive design (mobile-first)
+- Smooth internal scroll navigation
+- Sections: Hero, Services, About/Fleet, and Contact
+- Floating WhatsApp button
+- SEO and Open Graph metadata in `index.html`
 
-##  Instalación y Uso
+## Requirements
 
-### 1. Instalar dependencias
+- Node.js 18+ (recommended)
+- npm
+
+## Run Locally
 
 ```bash
 npm install
-```
-
-### 2. Iniciar servidor de desarrollo
-
-```bash
 npm run dev
 ```
 
-El sitio estará disponible en `http://localhost:5173`
+Open at: `http://localhost:5173`
 
-### 3. Build para producción
-
-```bash
-npm run build
-```
-
-Los archivos optimizados se generarán en la carpeta `dist/`
-
-### 4. Preview del build de producción
+## Available Scripts
 
 ```bash
-npm run preview
+npm run dev      # development server
+npm run build    # production build
+npm run preview  # preview production build locally
 ```
 
-##  Estructura del Proyecto
+## Project Structure
 
-```
-ProyectoTransporteMonti/
+```txt
+.
+├── public/img/                # site images
 ├── src/
 │   ├── components/
-│   │   ├── Navbar.jsx           # Navegación sticky con menú mobile
-│   │   ├── Hero.jsx              # Hero section de alto impacto
-│   │   ├── Services.jsx          # Grid de servicios
-│   │   ├── WhyUs.jsx             # Propuesta de valor + Flota
-│   │   ├── Contact.jsx           # Formulario y datos de contacto
-│   │   ├── Footer.jsx            # Footer con links y redes sociales
-│   │   └── WhatsAppButton.jsx    # Botón flotante de WhatsApp
-│   ├── App.jsx                   # Componente principal
-│   ├── main.jsx                  # Entry point
-│   └── index.css                 # Estilos globales + Tailwind
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Services.jsx
+│   │   ├── WhyUs.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Footer.jsx
+│   │   └── WhatsAppButton.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
 ├── index.html
-├── package.json
-├── vite.config.js
 ├── tailwind.config.js
-└── postcss.config.js
+└── vite.config.js
 ```
 
-##  Personalización
+## Deployment
 
-### Colores
+The project is deployed on **Vercel** and connected to the repository.
 
-Los colores se definen en `tailwind.config.js`:
+## Screenshot (optional)
 
-```javascript
-colors: {
-  'monti-black': '#0A0A0A',
-  'monti-gray': '#1F1F1F',
-  'monti-silver': '#C0C0C0',
-  'monti-accent': '#1E3A8A',
-}
+Not required, but **recommended** to give readers a quick visual without opening the link.  
+To add one, save an image in `public` or `docs` and reference it like this:
+
+```md
+![Home Transporte Monti](./docs/screenshot-home.png)
 ```
 
-### Tipografías
+## License
 
-Las fuentes se cargan desde Google Fonts en `index.html`:
-- **Syne** - Display (títulos grandes)
-- **Montserrat** - Headings
-- **Plus Jakarta Sans** - Body text
-
-
-## 🎯 Optimizaciones Incluidas
-
-- ✅ Lazy loading de imágenes
-- ✅ Animaciones optimizadas con Framer Motion
-- ✅ CSS purgeado en producción (TailwindCSS)
-- ✅ Componentes modulares y reutilizables
-- ✅ Smooth scroll nativo
-- ✅ Viewport-based animations (solo anima cuando está visible)
-
-
-## 📞 Contacto y Soporte
-
-Para modificaciones o consultas sobre este proyecto, contacta al desarrollador.
-
-## 📄 Licencia
-
-Proyecto propietario de Transporte Monti.
-
----
-
-**Desarrollado para Transporte Monti**
+Private project for Transporte Monti.
